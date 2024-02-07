@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technopark</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__offer">Last chance + Free delivery 2-4 days in UK</p>
+
+      <div class="container">
+        <img
+          src="./images/logo.png"
+          alt="technopark logo"
+          class="header__logo"
+        />
+        <button class="header__burger">
+          <img src="./images/menu.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="navigation">
+        <img
+          class="navigation__logo"
+          src="./images/logo-black.png"
+          alt="technopark logo"
+        />
+        <nav class="navigation__list">
+          <a class="navigation__link" href="#slider"
+            >Go to product page
+            <img class="link-arrow" src="./images/arrow.svg" alt=""
+          /></a>
+          <a class="navigation__link" href="#"
+            >Track your order
+            <img class="link-arrow" src="./images/arrow.svg" alt=""
+          /></a>
+          <a class="navigation__link" href="#"
+            >Contact us <img class="link-arrow" src="./images/arrow.svg" alt=""
+          /></a>
+          <a class="navigation__link" href="#"
+            >FAQ <img class="link-arrow" src="./images/arrow.svg" alt=""
+          /></a>
+        </nav>
+        <button class="navigation__close-button">
+          <img src="./images/close-btn.svg" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Power. It’s in the Air.</h1>
+          <p class="hero__subtitle">Limited offer just for today</p>
+          <div class="reviews">
+            <div class="reviews__inner">
+              <div class="stars">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <span>4.9 / 5.0</span>
+            </div>
+            <div class="reviews__inner">
+              <span>10000+ reviews</span>
+              <img src="./images/arrow-purple.svg" alt="" />
+            </div>
+          </div>
+          <div class="price">
+            <span class="new-price">£199</span>
+            <div class="old-price">
+              <span class="old-price">£1099</span>
+              <img class="cross" src="./images/cross.svg" alt="" />
+            </div>
+          </div>
+          <img
+            class="hero__bg"
+            src="./images/hero__bg.jpg"
+            alt="Apple MacBook Air"
+          />
+          <div class="advantages">
+            <img src="./images/feat1.png" alt="express shipping" />
+            <img
+              src="./images/feat2.png"
+              alt="Over 10,000 reviews on Trustpilot"
+            />
+            <img src="./images/feat3.png" alt="4.9 out of 5 Excellent" />
+          </div>
+        </div>
+      </section>
+      <section class="slider container" id="slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/slider-1.jpg" alt="Apple MacBook Air" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-2.jpg" alt="Apple MacBook Air" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-3.jpg" alt="Apple MacBook Air" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-4.jpg" alt="Apple MacBook Air" />
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="description container">
+        <h2 class="description__title">
+          Apple MacBook Air (M1, 2020) 16 ГБ, 1 ТБ SSD “Space Gray”
+        </h2>
+        <div class="description__items-left">
+          <span>35 items left</span>
+          <div class="progress-bar">
+            <div></div>
+          </div>
+        </div>
+        <p class="description__text">
+          The Handheld Gateway to Your PS5® Games Play Your Game Collection
+          Experience Breathtaking Immersion with DualSense® Wireless Controller
+          Features
+          <br />
+          <br />
+          Feel the incredible immersion of haptic feedback and adaptive triggers
+          in supported games
+        </p>
+      </section>
+      <section class="sale container">
+        <div class="sale__counter">
+          sale ends in <strong class="sale__time">17:34:53</strong>
+        </div>
+        <div class="sale-price">
+          <span class="sale-price__new"> £199 </span>
+          <div class="sale-price__old">
+            <span> £1099 </span>
+            <img class="cross" src="./images/cross.svg" alt="" />
+            <span class="sale-price__difference"> –75% </span>
+          </div>
+        </div>
+        <p class="sale__text">
+          Special offer only for split payments by
+          <img src="./images/afterpay-logo.svg" alt="" /> with 10 interest-free
+          installments
+        </p>
+        <button class="sale__button">Buy now pay later</button>
+        <p class="sale__disclaimer">
+          In stock, ready for ship <br />
+          Delivery in 2-4 days in UK
+        </p>
+        <div class="checkout">
+          <img class="checkout__logo" src="./images/afterpay-logo.svg" alt="" />
+          <h3 class="checkout__logo">Make easy monthly payments</h3>
+          <div class="cart">
+            <span class="cart__montly">£9.99/mo.</span>
+            <div class="cart__title">
+              <span> APR </span>
+              <span> Interest </span>
+              <span> Total </span>
+            </div>
+            <div class="cart__value">
+              <span>0%</span>
+              <span>£0</span>
+              <span> £89.00 </span>
+            </div>
+          </div>
+          <div class="separator"></div>
+          <button class="checkout__button">Confirm to checkout</button>
+          <button class="checkout__close-button">
+            <img src="./images/close-btn.svg" alt="" />
+          </button>
+        </div>
+      </section>
+      <section class="shipment container">
+        <div class="shipment__title-wrapper">
+          <h3 class="shipment__title">Free shipping in United Kingdom</h3>
+          <img class="shipment__arrow" src="./images/arrow.svg" alt="" />
+        </div>
+
+        <div class="shipment__inner visible">
+          <div class="shipment__methods">
+            <img src="./images/dhl.png" alt="DHL logo" />
+            <img src="./images/dpd.png" alt="dpd logo" />
+            <img src="./images/fedex.png" alt="fedex logo" />
+            <img src="./images/ups.png" alt="ups logo" />
+          </div>
+          <p class="shipment__text">
+            All purchases are shipped from our warehouse in United Kingdom and
+            are fully insured with a tracking number. Tracked delivery between
+            2-4 days in United Kingdom + Free Delivery.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text container">
+        *Information is not a public offer This site is not part of the Facebook
+        or Facebook Inc. website. Also, this site is not endorsed by Facebook in
+        any way FACEBOOK is a trademark of FACEBOOK, Inc. Facebook provides a
+        platform for serving advertising, but the opinions and/or views
+        expressed on this website are not representative of Facebook, Inc.
+        Opinions and/or views expressed on our website's social media platforms,
+        including but not limited to our blogs and Facebook pages, represent the
+        thoughts of individual bloggers and online communities, and not
+        necessarily those of our website or any of its business partners,
+        affiliates or any of their respective officers, employees, staff or
+        board members. The views and opinions expressed on these pages do not in
+        any way reflect the opinions of the site on which they are published,
+        other sites affiliated with the site, the personnel involved in the
+        maintenance of the site or any member of the site. Any opinions or views
+        expressed on this website's social media platforms are not
+        representative of Facebook, Inc. Although our website makes reasonable
+        efforts to monitor and/or moderate content posted on its social media
+        platforms, we do not moderate all comments and cannot always respond to
+        online inquiries in a timely manner. All new customers are entered into
+        the raffle for the displayed campaign product. If you are the lucky
+        winner, you will be contacted directly by email. This special offer
+        includes a three-day trial to an affiliated service, after which the
+        subscription fee will be thirty-three euros every fourteen days -
+        automatically deducted from your credit card. If for any reason you are
+        not satisfied with the service, you can cancel your account within three
+        days. The service will renew every thirty days until cancelled. This
+        campaign will expire on December 31 of this year. If you would like to
+        participate without signing up for a three-day trial at Toolsandtoys,
+        please email.
+      </p>
+      <button class="footer__button">Read less</button>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
