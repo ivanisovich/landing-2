@@ -10,6 +10,7 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   max-width: 390px;
+  box-sizing: border-box;
 }
 
 .no-scroll {
@@ -30,20 +31,20 @@ body {
   background: #ec6566;
   color: white;
   margin: 0px;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .header__logo {
   padding-top: 38px;
   padding-bottom: 14px;
-
+  max-height: 28px;
   margin: 0 auto;
 }
 
 .header__burger {
   position: absolute;
-  bottom: 16px;
-  right: 28px;
+  bottom: 11px;
+  right: 19px;
   background: none;
   border: none;
 }
@@ -74,6 +75,7 @@ body {
   margin-bottom: 23px;
   margin-right: auto;
   padding: 18px 12px;
+  max-height: 28px;
 }
 
 .navigation__list {
@@ -135,6 +137,7 @@ body {
   background-clip: text;
   font-size: 16px;
   text-align: center;
+  margin-bottom: 19px;
 }
 
 .reviews {
@@ -149,7 +152,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .reviews span {
@@ -179,10 +182,10 @@ body {
 
 .price {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 54px;
 }
 
 .old-price {
@@ -205,7 +208,9 @@ body {
 }
 
 .hero__bg {
-  width: 100%;
+  width: calc(100% + 48px);
+  margin-left: -24px;
+  margin-bottom: 34px;
 }
 
 .advantages {
@@ -214,6 +219,16 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 4px;
+}
+
+.advantages img{
+  max-height: 35px;
+  object-fit: scale-down;
+}
+
+.slider{
+  padding-top: 26px;
+
 }
 
 .swiper {
@@ -240,6 +255,8 @@ body {
   color: rgb(31, 31, 31);
   font-size: 32px;
   font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 22px;
 }
 
 .description__items-left {
@@ -249,10 +266,11 @@ body {
 .description__items-left span {
   color: rgb(255, 64, 83);
   font-size: 16px;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
 }
 
 .progress-bar {
+  margin-top:10px;
   background: rgb(235, 234, 232);
   border-radius: 90px;
   width: 100%;
@@ -269,6 +287,7 @@ body {
 .description__text {
   color: rgb(31, 31, 31);
   font-size: 16px;
+  margin-bottom: 19px;
 }
 
 .sale {
@@ -278,9 +297,10 @@ body {
 .sale__counter {
   background: rgb(245, 245, 246);
   border-radius: 1000px;
-  padding: 8px;
+  padding: 11px;
   text-align: center;
   margin-bottom: 12px;
+  
 }
 
 .sale__counter strong {
@@ -293,6 +313,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   display: block;
+  margin-bottom: 8px;
 }
 
 .sale-price__old {
@@ -312,6 +333,8 @@ body {
 .sale__text {
   text-align: center;
   line-height: 30px;
+  font-size: 14px;
+  margin-bottom: 3px;
 }
 
 .sale__button {
@@ -319,13 +342,15 @@ body {
   border-radius: 8px;
   border: none;
   background: rgb(176, 253, 228);
-  padding: 11px 21px 11px 21px;
+  padding: 17px 21px 15px 21px;
+
 }
 
 .sale__disclaimer {
   color: rgb(113, 114, 113);
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
+  margin-top: 6px;
 }
 
 .checkout {
