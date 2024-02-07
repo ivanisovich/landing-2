@@ -351,6 +351,7 @@ body {
   font-size: 14px;
   line-height: 25px;
   margin-top: 6px;
+  margin-bottom: 0px;
 }
 
 .checkout {
@@ -456,24 +457,28 @@ body {
 
 .shipment {
   padding-top: 36px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .shipment__title {
   color: rgb(31, 31, 31);
   font-size: 20px;
   font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 14px;
 }
 
 .shipment__title-wrapper {
   display: flex;
   width: calc(100% + 10px);
   justify-content: space-between;
+  align-items: center;
 }
 
 .shipment__arrow {
   transform: rotate(0deg);
   transition: 0.3s ease-in-out;
+  align-self: flex-start;
 }
 
 .shipment__methods {
@@ -487,6 +492,8 @@ body {
 
 .shipment__text {
   color: #6b6b6b;
+  margin-top: 10px;
+  line-height: 135%;
 }
 
 .shipment__inner {
@@ -513,6 +520,8 @@ body {
   color: #8e8e8e;
   text-align: center;
   margin-bottom: 8px;
+  line-height: 150%;
+  margin-bottom: 8px;
 }
 
 .footer__text.hidden {
@@ -525,7 +534,7 @@ body {
 
 .footer__button {
   background: #8e8e8e;
-  font-size: 14px;
+  font-size: 8px;
   border: none;
   border-radius: 100px;
   padding: 6px 18px 6px 18px;
